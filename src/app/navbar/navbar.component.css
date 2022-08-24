@@ -1,0 +1,21 @@
+a {
+    padding: 16px;
+}
+
+header {
+    background-color: rgb(204, 76, 8);
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+a:hover {
+    background-color: #454545;
+}
+
+a:visited,
+a:active,
+a:link {
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+}

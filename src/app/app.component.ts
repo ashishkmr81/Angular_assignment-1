@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ash_app';
+  clickcounter = 0;
+  incrementcounter() {
+    this.clickcounter++;
+  }
 }
